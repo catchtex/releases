@@ -16,12 +16,10 @@
   <a href="https://github.com/catchtex/releases/issues">Report a problem</a>
 </p>
 
-<!-- GIF: replace the image below with the 15-second demo once recorded
-     (docs\DEMO-SHOT-LIST.md, snip-table.gif): upload it to this repository and use
-     <img src="snip-table.gif" ...> -->
 <p align="center">
-  <img src="https://catchtex.com/assets/social-preview.png" width="720" alt="A table snipped from a PDF next to the booktabs LaTeX code CatchTeX writes for it">
+  <img src="https://catchtex.com/media/snip-table.gif" width="760" alt="Snipping a block diagram and a table from a PDF in CatchTeX and getting TikZ and booktabs code">
 </p>
+<p align="center"><a href="https://catchtex.com/#demo">Watch the 45-second demo</a></p>
 
 ## What it does
 
