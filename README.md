@@ -48,9 +48,9 @@ from the [latest release](https://github.com/catchtex/releases/releases/latest) 
 
 | | |
 |---|---|
-| Version | 1.0.0 |
-| File | `CatchTeX-Setup-1.0.0.exe` (238 MB) |
-| SHA-256 | `7e17e69a72a7ddb81b1eb89349fa9448135844dc617305c8f353578b04540ba1` |
+| Version | 1.0.1 |
+| File | `CatchTeX-Setup-1.0.1.exe` (238 MB) |
+| SHA-256 | `ff8572da93dd79c2995ac9f6834ca4f25e818ca00e80654cebce05bf408ca90a` |
 | System | Windows 10 or 11, 64-bit, about 750 MB disk space |
 | Internet | Not needed (see below) |
 
@@ -60,7 +60,7 @@ Windows may show "Windows protected your PC" for a new installer: click **More i
 To check the file, run this in PowerShell and compare it with the SHA-256 above:
 
 ```powershell
-Get-FileHash .\CatchTeX-Setup-1.0.0.exe
+Get-FileHash .\CatchTeX-Setup-1.0.1.exe
 ```
 
 This repository holds the installers, release notes and bug reports. The source code of CatchTeX
