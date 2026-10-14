@@ -77,19 +77,20 @@ two things use the internet:
 
 ## Editions
 
-| | Free | Pro | Labs & institutes |
-|---|---|---|---|
-| Price | $0 | $29 one-time | quote |
-| Snips | 10 a day | unlimited | unlimited |
-| Computers | any | 2 | lab packs, department and campus licences |
-| Updates | all 1.x | all 1.x | all 1.x |
+| | Free | Student | Pro | Lab pack |
+|---|---|---|---|---|
+| Price | $0 | $12 one-time | $29 one-time | $99 one-time |
+| Snips | 10 a day | unlimited | unlimited | unlimited |
+| Computers | any | 1 | 2 | 5 |
+| Updates | all 1.x | all 1.x | all 1.x | all 1.x |
 
-Pro comes with a 14-day money-back guarantee, no questions asked.
-[Buy Pro](https://catchtex.com/#pricing) &middot;
+Students and researchers at the IITs and IISc get CatchTeX free for 6 months:
+[catchtex.com/campus](https://catchtex.com/campus?ref=github). Departments and campuses: licences on request.
+
+Paid licences come with a 14-day money-back guarantee, no questions asked.
+[Buy a licence](https://catchtex.com/#pricing) &middot;
 [Institute licences](https://catchtex.com/#institutes)
 
-**Founder licences** bought during the 0.9 beta stay valid in every 1.x version and include the
-2.0 upgrade, as promised.
 
 Mac or Linux? CatchTeX is Windows-only for now.
 [Join the waitlist](https://catchtex.com/download#mac): sign-ups decide what comes next.
