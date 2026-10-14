@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>Snip tables, equations, plots and diagrams from PDFs. Get LaTeX that compiles.</b><br>
-  Offline &middot; Windows 10 and 11 &middot; Free edition
+  Version 1.0 &middot; Fully offline &middot; Windows 10 and 11 &middot; Free edition forever
 </p>
 
 <p align="center">
@@ -23,8 +23,8 @@
 
 ## What it does
 
-Drag a box over part of a paper, in CatchTeX's own PDF viewer or anywhere on your screen, and get
-clean LaTeX you can paste into Overleaf:
+Drag a box over part of a paper, in CatchTeX's own PDF viewer or anywhere on your screen (press
+**S twice**), and get clean LaTeX you can paste into Overleaf:
 
 | You snip | You get |
 |---|---|
@@ -32,29 +32,75 @@ clean LaTeX you can paste into Overleaf:
 | an equation | `amsmath`, your choice of environment, the paper's number kept as `\tag` |
 | a plot | `pgfplots` with the measured data points, axes and legend |
 | a block diagram | TikZ nodes and arrows |
-| a reference list | BibTeX, each entry checked against Crossref, dblp, arXiv and OpenAlex |
+| a reference list | BibTeX, optionally checked against Crossref, dblp, arXiv and OpenAlex |
 | a paragraph | LaTeX text with maths and accents |
+
+**Auto mode** recognises what you selected, so most of the time you just snip.
 
 - **Exact from PDFs:** characters are read from the PDF's own text layer, not guessed from pixels.
 - **Compiled before you copy:** a complete pdfLaTeX is built in; no TeX installation needed.
-- **Private:** recognition runs fully offline. Your papers never leave your computer.
+- **Private by design:** recognition runs fully offline. Your papers never leave your computer.
 
 ## Download
 
-**Get the installer from [catchtex.com/download](https://catchtex.com/download?ref=github).**
-The site always has the current version, its size and SHA-256 checksum. This repository holds the
-release notes and takes bug reports; the source code of CatchTeX is not published here.
+**Get the installer from [catchtex.com/download](https://catchtex.com/download?ref=github)**, or
+from the [latest release](https://github.com/catchtex/releases/releases/latest) on this page.
+
+| | |
+|---|---|
+| Version | 1.0.0 |
+| File | `CatchTeX-Setup-1.0.0.exe` (238 MB) |
+| SHA-256 | `7e17e69a72a7ddb81b1eb89349fa9448135844dc617305c8f353578b04540ba1` |
+| System | Windows 10 or 11, 64-bit, about 750 MB disk space |
+| Internet | Not needed (see below) |
 
 Windows may show "Windows protected your PC" for a new installer: click **More info**, then
-**Run anyway**.
+**Run anyway**. [Step-by-step help](https://catchtex.com/windows-warning).
+
+To check the file, run this in PowerShell and compare it with the SHA-256 above:
+
+```powershell
+Get-FileHash .\CatchTeX-Setup-1.0.0.exe
+```
+
+This repository holds the installers, release notes and bug reports. The source code of CatchTeX
+is not published here.
+
+## Offline, and what goes online
+
+CatchTeX 1.0 has no AI service and no cloud account. Everything is read on your computer. Only
+two things use the internet:
+
+- **Checking references** (Crossref, OpenAlex, dblp, arXiv, Semantic Scholar, Unpaywall): off
+  until you allow it in *Settings â€º General â€º Internet*. Only the reference details are sent.
+- **Activating Pro**: once per computer. Offline activation by e-mail is also possible.
 
 ## Editions
 
-- **Free:** every mode, 10 snips a day. During the public beta (until 30 November 2026) there is no
-  daily limit.
-- **Pro:** unlimited snips on 2 computers, all 1.x updates, one-time payment, 14-day money-back
-  guarantee. Until 1.0 there is a **Founder licence** at a lower price that also includes the 2.0
-  upgrade: see [pricing](https://catchtex.com/#pricing).
+| | Free | Pro | Labs & institutes |
+|---|---|---|---|
+| Price | $0 | $29 one-time | quote |
+| Snips | 10 a day | unlimited | unlimited |
+| Computers | any | 2 | lab packs, department and campus licences |
+| Updates | all 1.x | all 1.x | all 1.x |
+
+Pro comes with a 14-day money-back guarantee, no questions asked.
+[Buy Pro](https://catchtex.com/#pricing) &middot;
+[Institute licences](https://catchtex.com/#institutes)
+
+**Founder licences** bought during the 0.9 beta stay valid in every 1.x version and include the
+2.0 upgrade, as promised.
+
+Mac or Linux? CatchTeX is Windows-only for now.
+[Join the waitlist](https://catchtex.com/download#mac): sign-ups decide what comes next.
+
+## What's new in 1.0
+
+- Free edition and CatchTeX Pro (one-time licence).
+- Fully offline: the optional AI assistant of the beta is removed.
+- Reference checks ask before going online.
+- Auto mode tells block diagrams apart from plots and node graphs more reliably.
+- Clearer Settings window; screen snip by pressing **S** twice; simpler tray menu.
 
 ## Reporting a problem
 
